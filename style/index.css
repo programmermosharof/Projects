@@ -1,6 +1,8 @@
 body {
   font-family: 'Fira Sans', sans-serif;
   background: rgba(245, 245, 245, 1);
+
+ 
 }
 
 nav{
@@ -15,8 +17,11 @@ nav{
     padding: 24px 160px 24px 160px;
     background: rgba(245, 245, 245, 1);
 
-
 }
+.container{
+  
+}
+
 .Bangladesh{
         /* Bangladesh 2.0 */
     width: 222px;
@@ -151,13 +156,117 @@ background: rgba(255, 255, 255, 1);
 
 .pillars{
   width: 1280px;
-  margin: auto;}
+  margin: 0 auto;}
 .cards{
   display: flex;
   gap: 24px;
 }
-
+ /* The Vision of Future */
+ .Vision{
  
+width: 1280px;
+height: 48px;
+ }
 
+.card-icon1{
+  /* Frame 2087325495 */
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 32px;
 
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+}
+.card-icon2{
+  /* Frame 2087325499 */
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 32px;
 
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(198, 228, 214, 1);
+}
+
+.card-icon3{
+
+  /* Frame 2087325500 */
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 24px;
+
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(247, 235, 207, 1);
+}
+
+.btn1{
+  /* Frame 2 */
+width: 122px;
+height: 41px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+color: rgba(255, 255, 255, 1);
+border-radius: 8px;
+background: rgba(84, 144, 245, 1);
+border: none;
+}
+
+.btn2{
+
+  /* Frame 2 */
+width: 122px;
+height: 41px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+color: rgba(255, 255, 255, 1);
+border-radius: 8px;
+background: rgba(9, 161, 92, 1);
+border: none;
+  
+}
+
+.btn3{
+  /* Frame 2 */
+width: 122px;
+height: 41px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+color: rgba(255, 255, 255, 1);
+border-radius: 8px;
+background: rgba(255, 194, 57, 1);
+ border: none;
+  
+}
