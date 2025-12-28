@@ -131,3 +131,33 @@ nav{
   max-width: 100%;
   
 }
+.card-icon{
+  /* Frame 2087325495 */
+width: 302px;
+height: 244px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 24px;
+
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+}
+
+.pillars{
+  width: 1280px;
+  margin: auto;}
+.cards{
+  display: flex;
+  gap: 24px;
+}
+
+ 
+
+
+
