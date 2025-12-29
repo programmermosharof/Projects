@@ -1,0 +1,49 @@
+  <div class="container pillars m2">
+        <h1 class="main-title">Your Opinion Matters</h1>
+        
+        <div class="table-card">
+            <div class="table-header">
+                <div class="col-question">Questions</div>
+                <div class="col-opinion">Select Your Opinion</div>
+            </div>
+
+            <div class="table-row">
+                <div class="col-question">
+                    Do you believe Bangladesh is on the right path toward becoming a developed nation?
+                </div>
+                <div class="col-opinion">
+                    <select class="custom-select">
+                        <option>Yes, I Agree</option>
+                        <option>No, I Disagree</option>
+                        <option>Neutral</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="col-question">
+                    Do you believe Bangladesh is on the right path toward becoming a developed nation?
+                </div>
+                <div class="col-opinion">
+                    <select class="custom-select">
+                        <option>Yes, I Agree</option>
+                        <option>No, I Disagree</option>
+                        <option>Neutral</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="col-question">
+                    Do you believe Bangladesh is on the right path toward becoming a developed nation?
+                </div>
+                <div class="col-opinion">
+                    <select class="custom-select">
+                        <option>Yes, I Agree</option>
+                        <option>No, I Disagree</option>
+                        <option>Neutral</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>

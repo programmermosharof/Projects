@@ -316,5 +316,65 @@ justify-content: flex-start;
 align-items: flex-start;
 gap: 4;
 
+}
 
+
+
+.news {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.news h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.intro {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Card */
+.news-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;          /* ⭐ main magic */
+  gap: 30px;
+}
+
+/* Image */
+.news-img img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+/* Content */
+.news-content h3 {
+  margin: 0;
+}
+
+.source {
+  color: #0a8f5c;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 14px;
+  color: gray;
+}
+
+.desc {
+  margin: 15px 0;
+  color: #444;
+}
+
+button {
+  background: #0a8f5c;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
 }
