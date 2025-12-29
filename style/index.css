@@ -7,8 +7,8 @@ body {
 
 nav{
         /* Frame 2 */
-    width: 1600px;
-    height: 100px;
+    width: 1440px;
+    margin: 0 auto;
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -18,8 +18,8 @@ nav{
     background: rgba(245, 245, 245, 1);
 
 }
-.container{
-  
+.container{width: 1600px;
+    height: 100px;
 }
 
 .Bangladesh{
@@ -113,11 +113,12 @@ nav{
   height: 560px;
   display: flex;
   align-items: center;
-  gap: 64px;
+  gap: 70px;
   padding: 80px 100px;
   border-radius: 24px;
   background: rgba(198, 228, 214, 1);
   margin: 40px auto;
+  
 }
 
 .text-section {
@@ -155,12 +156,24 @@ background: rgba(255, 255, 255, 1);
 }
 
 .pillars{
-  width: 1280px;
+  width: 1440px;
   margin: 0 auto;}
+
 .cards{
   display: flex;
-  gap: 24px;
+  /* gap: 40px; */
+    justify-content: space-between;
 }
+.m1{
+  margin-top: 80px;
+}
+.m2{
+  margin-top: 32px;
+}
+.m3{
+  margin-bottom: 32px;
+}
+
  /* The Vision of Future */
  .Vision{
  
@@ -269,4 +282,39 @@ border-radius: 8px;
 background: rgba(255, 194, 57, 1);
  border: none;
   
+}
+
+.Lorem {
+  width: 1440px;
+  height: 256px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  padding: 48px 24px;
+
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background-color: #fff;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+
+  background-size: 80px;       
+  background-position: 24px 48px; 
+}
+
+.m4{
+  /* Frame 2087325626 */
+width: 1232px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 4;
+
+
 }
